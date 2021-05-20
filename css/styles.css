@@ -189,171 +189,6 @@ margin-left: 50px;
   text-transform: uppercase;
 }
 
-/* Overlay */
-
-.icon {
-  width: 16px;
-  height: 12px;
-  margin-right: 10px;
-  fill: currentColor;
-}
-
-.icon-features {
-  display: flex;
-  align-items: center;
-  background-color: #f5f4fa;
-  width: 270px;
-  height: 120px;
-  margin-bottom: 30px;
-  border-radius: 4px;
-}
-
-.social-media {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 16px;
-}
-
-.social-icon {
-  width: 20px;
-  height: 20px;
-  fill: currentColor;
-}
-
-.social-link a {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 44px;
-  height: 44px;
-
-  color: #afb1b8;
-}
-
-.social-link:not(:last-child) {
-  margin-right: 10px;
-}
-
-.social-link a:hover {
-  color: var(--main-background-color);
-  background-color: var(--main-accent-color);
-  border-radius: 50%;
-}
-
-.overlay {
-  max-width: 1600px;
-  height: 600px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 15px;
-  padding-right: 15px;
-
-  background-color: #c4c4c4;
-
-  border: 1px solid #000000;
-  background-image: linear-gradient(
-      to right,
-      rgba(47, 48, 58, 0.4),
-      rgba(47, 48, 58, 0.4)
-    ),
-    url(../images/overlayhero.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.clients {
-  display: flex;
-  justify-content: center;
-}
-
-.company {
-  display: flex;
-  justify-content: center;
-  width: 170px;
-  height: 92px;
-
-  border: 1px solid #afb1b8;
-  border-radius: 4px;
-}
-.company:not(:last-child) {
-  margin-right: 30px;
-}
-
-.company a {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  color: #afb1b8;
-}
-
-.company-icon {
-  width: 106px;
-  height: 60px;
-  fill: currentColor;
-}
-
-.effect:hover {
-  border-color: var(--main-accent-color);
-  color: var(--main-accent-color);
-}
-footer .container {
-  display: flex;
-  align-items: baseline;
-}
-
-.join-container {
-  display: block;
-}
-
-.footer-address {
-  display: block;
-}
-
-.join-container {
-  margin-left: 70px;
-}
-
-.join-title {
-  display: block;
-  margin-bottom: 20px;
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-
-  color: var(--main-background-color);
-}
-
-.join-list {
-  display: flex;
-}
-
-.join-social a {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 44px;
-  height: 44px;
-  border-radius: 50%;
-  background-color: rgba(255, 255, 255, 0.1);
-
-  color: white;
-}
-.join-social:not(:last-child) {
-  margin-right: 10px;
-}
-.join-social a:hover {
-  background-color: var(--main-accent-color);
-}
-
-.join-social-icon {
-  width: 20px;
-  height: 20px;
-  fill: currentColor;
-}
 /* Studio order button */
 
 .order {
@@ -436,6 +271,10 @@ footer .container {
   padding: 20px 24px;
   border: 1px solid #eeeeee;
   border-top: 0;
+}
+
+.grid-item:hover {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 /* Studio features */
@@ -642,4 +481,188 @@ address {
 .footer-contacts:hover,
 :focus {
   color: var(--main-accent-color);
+}
+
+/* Vector graphics */
+
+.icon {
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
+  fill: currentColor;
+}
+
+.features-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f5f4fa;
+  width: 270px;
+  height: 120px;
+  margin-bottom: 30px;
+  border-radius: 4px;
+}
+
+.symbol {
+  width: 70px;
+  height: 70px;
+}
+
+.overlay {
+  max-width: 1600px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+
+  background-color: #c4c4c4;
+
+  border: 1px solid #000000;
+  background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/overlayhero.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.social-media {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 16px;
+}
+
+.social-icon {
+  width: 20px;
+  height: 20px;
+  fill: currentColor;
+}
+
+.social-link a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+
+  color: #afb1b8;
+}
+
+.social-link:not(:last-child) {
+  margin-right: 10px;
+}
+
+.social-link a:hover {
+  color: var(--main-background-color);
+  background-color: var(--main-accent-color);
+  border-radius: 50%;
+}
+
+.social-link a:focus {
+  color: var(--main-background-color);
+  background-color: var(--main-accent-color);
+  border-radius: 50%;
+}
+
+.clients {
+  display: flex;
+  justify-content: center;
+}
+
+.company {
+  display: flex;
+  justify-content: center;
+  width: 170px;
+  height: 92px;
+
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+}
+.company:not(:last-child) {
+  margin-right: 30px;
+}
+
+.company a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: #afb1b8;
+}
+
+.company-icon {
+  width: 106px;
+  height: 60px;
+  fill: currentColor;
+}
+
+.effect:hover,
+.effect:focus {
+  border-color: var(--main-accent-color);
+  color: var(--main-accent-color);
+}
+footer .container {
+  display: flex;
+  align-items: baseline;
+}
+
+.join-container {
+  display: block;
+  margin-left: 70px;
+}
+
+.footer-address {
+  display: block;
+}
+
+.join-title {
+  display: block;
+  margin-bottom: 20px;
+
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: var(--main-background-color);
+}
+
+.join-list {
+  display: flex;
+}
+
+.join-social a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+
+  color: var(--main-background-color);
+}
+
+.join-social:not(:last-child) {
+  margin-right: 10px;
+}
+
+.join-social a:hover {
+  background-color: var(--main-accent-color);
+}
+
+.join-social a:focus {
+  background-color: var(--main-accent-color);
+}
+
+.join-social-icon {
+  width: 20px;
+  height: 20px;
+  fill: currentColor;
 }
